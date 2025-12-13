@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Pixel Pulse - Community</title>
+    <script>
+      tailwind.config = { darkMode: 'class', theme: { extend: { colors: { primary: '#10B981' } } } }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#071014] text-slate-100">
+    <header class="border-b border-slate-800">
+      <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+        <a href="../index.html" class="text-2xl font-extrabold text-white">Pixel Pulse</a>
+        <nav>
+          <ul class="flex gap-4 items-center">
+            <li><a href="../index.html" class="px-3 py-2 rounded-md hover:bg-slate-800">Home</a></li>
+            <li><a href="roblox.html" class="px-3 py-2 rounded-md bg-slate-800">Roblox</a></li>
+            <li><a href="minecraft.html" class="px-3 py-2 rounded-md hover:bg-slate-800">Minecraft</a></li>
+            <li><a href="gta5.html" class="px-3 py-2 rounded-md hover:bg-slate-800">GTA V</a></li>
+            <li><a href="fortnite.html" class="px-3 py-2 rounded-md hover:bg-slate-800">Fortnite</a></li>
+            <li><a href="warofgod.html" class="px-3 py-2 rounded-md hover:bg-slate-800">God of War</a></li>
+          <li><a href="callofduty.html" class="px-3 py-2 rounded-md hover:bg-slate-800">Call of Duty</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 py-12">
+      <h1 class="text-3xl font-bold mb-4">Community</h1>
+      <p class="text-slate-300 mb-6">
+        
+        
+        Welcome to the Community Page. It is still in Progress!.
+
+
+
+
+        
+      </p>
+    </main>
+
+    <footer class="border-t border-slate-800 mt-12">
+      <div class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
+        <div class="text-sm text-slate-400">© <span id="year"></span> Pixel Pulse</div>
+        <div class="flex gap-4">
+          <a href="privacy.html" class="text-slate-300 hover:text-primary">Privacy Policy</a>
+          <a href="terms.html" class="text-slate-300 hover:text-primary">Terms of Use</a>
+          <a href="cookie.html" class="text-slate-300 hover:text-primary">Cookie Policy</a>
+          <a href="contact.html" class="text-slate-300 hover:text-primary">Contact Us</a>
+        </div>
+      </div>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>
