@@ -213,16 +213,16 @@ References
     </main>
 
     <footer class="border-t border-slate-800 mt-12">
-      <div class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
-        <div class="text-sm text-slate-400">© <span id="year"></span> Pixel Pulse</div>
-        <div class="flex gap-4">
-          <a href="../includes/privacy.html" class="text-slate-300 hover:text-primary">Privacy Policy</a>
-          <a href="../includes/terms.html" class="text-slate-300 hover:text-primary">Terms of Use</a>
-          <a href="../includes/cookie.html" class="text-slate-300 hover:text-primary">Cookie Policy</a>
-          <a href="../includes/contact.html" class="text-slate-300 hover:text-primary">Contact Us</a>
+        <div class="max-w-6xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div class="text-sm text-slate-400">© <span id="year"></span> Pixel Pulse. All rights reserved.</div>
+          <div class="flex gap-4">
+            <a href="./includes/privacy.html" class="px-3 py-2 rounded-md hover:bg-slate-800">Privacy Policy</a>
+            <a href="./includes/terms.html" class="px-3 py-2 rounded-md hover:bg-slate-800">Terms of Use</a>
+            <a href="./includes/cookie.html" class="px-3 py-2 rounded-md hover:bg-slate-800">Cookie Policy</a>
+            <a href="./includes/contact.html" class="px-3 py-2 rounded-md hover:bg-slate-800">Contact Us</a>
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
     <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   </body>
 </html>
